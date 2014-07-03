@@ -21,6 +21,7 @@ Options
 ---
 
 'yes' = The string to be used as "yes" value
+
 'no' = The string to be used as "no" value
 
 example:
