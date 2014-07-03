@@ -8,7 +8,7 @@ Usage
 Include the plugin and the stylesheet:
 ```html
 <link href="/css/pillSwitch.css" type="text/css" rel="stylesheet">
-<script src="/js/illSwitch.js" type="text/javascript">
+<script src="/js/pillSwitch.js" type="text/javascript">
 ```
 
 ```javascript
