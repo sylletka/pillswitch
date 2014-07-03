@@ -1,0 +1,39 @@
+.pillSwitch {
+    background: linear-gradient(to bottom, #ffffff 0%, #bfbfbf 100%) repeat scroll 0 0 #bfbfbf;
+    border: 1px solid #aaaaaa;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 0 0;
+}
+.pillSwitch span {
+    padding: 0 6px;
+    display:inline-block;
+    text-align: center;
+}
+.on {
+    border-radius: 6px 0 0 6px;
+    margin-right: 2px;
+}
+.off {
+    border-radius: 0 6px 6px 0;
+    margin-left: 2px;
+}
+.active.on {
+    background: linear-gradient(to bottom, #6ecc89 0%, #0e6615 100%) repeat scroll 0 0 #0e6615;
+    color: #cfffcf;
+    text-shadow: 0 0 2px #74fb72;
+}
+.active.off {
+    background: linear-gradient(to bottom, #CC6E6E 0%, #CD0A0A 100%) repeat scroll 0 0 #CD0A0A;
+    background-color: #CD0A0A;
+    color: #FFDDDD;
+    text-shadow: 0 0 2px #FFC3C3;
+}
+.inactive {
+    background: linear-gradient(to bottom, #b9b9b9 0%, #757575 100%) repeat scroll 0 0 #b9b9b9;
+    box-shadow: 0 0 2px #757575 inset;
+    color: #707070;
+    text-shadow: none;
+}
