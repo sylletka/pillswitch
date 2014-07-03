@@ -13,7 +13,7 @@ Include the plugin and the stylesheet:
 
 ```javascript
 $( document ).ready(function() {
-  $('myCheckbox').pillswitch();
+  $('.myCheckbox').pillswitch();
 });
 ```
 
@@ -28,7 +28,7 @@ example:
 
 ```javascript
 $( document ).ready(function() {
-  $('myCheckbox').pillswitch({
+  $('.myCheckbox').pillswitch({
     'yes' : 'Oui',
     'no' : 'Non'
   });
