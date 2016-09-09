@@ -34,4 +34,5 @@ $( document ).ready(function() {
   });
 });
 ```
+Live example at https://jsfiddle.net/sylletka/J3EYg/embedded/result/
 
